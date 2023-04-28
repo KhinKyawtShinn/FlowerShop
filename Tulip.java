@@ -1,6 +1,11 @@
 public class Tulip implements IFlower{
 
     @Override
+    public String Name(){
+        return "Tulip";
+    }
+
+    @Override
     public String Color() {
         return "White";
     }
@@ -16,7 +21,7 @@ public class Tulip implements IFlower{
     }
 
     @Override
-    public boolean IsIndoor(){
+    public boolean isIndoor(){
         return false;
     }
 
