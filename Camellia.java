@@ -1,6 +1,9 @@
 public abstract class Camellia implements IFlower{
 
     @Override
+    public String Name(){
+        return "Camellia";
+    }
     public String Color(){
         return "Rosy pink";
     };
@@ -14,7 +17,7 @@ public abstract class Camellia implements IFlower{
     };
 
     public Boolean isIndoor(){
-        return true;
+        return false;
     };
 
     public double Price(){
