@@ -7,5 +7,5 @@ public interface IFlower {
 
     public String Type();
     
-    public int Price();
+    public double Price();
 }
