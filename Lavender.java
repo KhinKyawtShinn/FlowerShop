@@ -19,4 +19,9 @@ public class Lavender implements IFlower{
     public boolean isIndoor() {
         return false;
     }
+    
+    @Override
+    public double Price() {
+        return "20.00";
+    }
 }
