@@ -1,5 +1,11 @@
 public class Lavender implements IFlower{
 
+
+    @Override
+    public String Name() {
+        return "Lavender";
+    }
+    
     @Override
     public String Color() {
         return "Purple";
@@ -16,12 +22,13 @@ public class Lavender implements IFlower{
     }
 
     @Override
-    public boolean isIndoor() {
+    public boolean IsIndoor() {
         return false;
     }
-    
+
     @Override
     public double Price() {
-        return "20.00";
+
+        return 20.00;
     }
 }
