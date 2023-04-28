@@ -6,4 +6,6 @@ public interface IFlower {
     public String Language();
 
     public String Type();
+    
+    public int Price();
 }
