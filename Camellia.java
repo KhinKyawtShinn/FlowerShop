@@ -6,22 +6,22 @@ public abstract class Camellia implements IFlower{
     }
     public String Color(){
         return "Rosy pink";
-    };
+    }
 
     public String Fragrance(){
         return "No smell";
-    };
+    }
 
     public String Language(){
         return "Symbol of love, adoration and longing";
-    };
+    }
 
     public Boolean isIndoor(){
         return false;
-    };
+    }
 
     public double Price(){
         return 20.00;
-    };
+    }
 
 }
