@@ -5,7 +5,7 @@ public interface IFlower {
 
     public String Language();
 
-    public String Type();
+    public String IsIndoor();
     
     public double Price();
 }
