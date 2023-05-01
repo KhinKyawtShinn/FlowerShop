@@ -1,0 +1,7 @@
+--- Welcome to MARY'S BLOSSOM FLOWER SHOP ----
+Flower List:
+1. Lavender
+2. Tulip
+3. Camellia
+4. Exit
+---------------------------
