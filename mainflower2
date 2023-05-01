@@ -18,7 +18,7 @@ public class mainflower {
     }
 
     public void start() {
-        File flowerFile = new File("/workspaces/FlowerShop/ListOfFlowers.txt");
+        File flowerFile = new File("ListOfFlowers.txt");
 
         try (BufferedReader bR = new BufferedReader(new FileReader(flowerFile))) {
             String line;
