@@ -17,7 +17,7 @@ public class Tulip implements IFlower{
 
     @Override
     public String Language(){
-        return "perfect and deep love";
+        return "Perfect and deep love";
     }
 
     @Override
